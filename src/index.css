@@ -10,7 +10,7 @@ body{
   font-family: "Roboto";
   background: #f1f1f1;
 }
-nav {
+.primary-nav {
   background-color: aliceblue;
   padding: 16px 32px;
 }
