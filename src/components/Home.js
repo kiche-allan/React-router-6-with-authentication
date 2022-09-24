@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <div><h1>Homepage</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima minus ad quae recusandae blanditiis labore nobis porro, dolore iusto ducimus veritatis, corporis ullam inventore laborum totam animi perspiciatis facilis eius odit ea? Unde impedit dolorum deleniti? Perspiciatis natus ea quia asperiores eveniet doloremque, consequatur sapiente accusamus neque aperiam earum.</p>
-    <button onClick={() => navigate('order-summary')}>Place Order</button>
+    <button onClick={() => navigate('order-summary', {replace: true})}>Place Order</button>
     </div>
 
     </>
