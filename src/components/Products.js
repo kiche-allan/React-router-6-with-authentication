@@ -8,8 +8,8 @@ export default function Products() {
     </div>
 
     <nav>
-        <Link to = 'featured'>Featured</Link>
-        <Link to ='new'>New</Link>
+        <Link to = '/products/featured'>Featured</Link>
+        <Link to ='/products/new'>New</Link>
     </nav>
     <Outlet/>
     </>
